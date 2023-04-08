@@ -3,7 +3,7 @@
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif; */
-    
+
 /*fonts*/
 p{font-family: 'Roboto', sans-serif;}
 
@@ -13,7 +13,9 @@ p{font-family: 'Roboto', sans-serif;}
 
 .artText{font-family: 'Noto Sans', sans-serif;}
 
-.tableTd{font-family: 'Poppins', sans-serif;}
+.tableTd{font-family: 'Poppins', sans-serif;} 
+/*cree un div para esta font pero no cambiaba
+asi que le asigne a cada td la class*/
 
 .inputLabel{font-family: 'Roboto', sans-serif;}
 
