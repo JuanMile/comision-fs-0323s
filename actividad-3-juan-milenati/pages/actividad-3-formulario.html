@@ -6,22 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>actividad-3-formulario</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Noto+Sans&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+
 </head>
-<body>
-    <header>
-        <h1>Pick a color!</h1>
-        <p>and tell us about you</p>
+<body class="bodyFormulario">
+    <header class="headerFormulario">
+        <h1 class="hFormulario">Pick a color!</h1>
+        <p class="hFormulario">and tell us about you</p>
     </header>
-    <main>
+    <main class="mainFormulario">
         <form action="">
         <fieldset>
+            <div class="inputLabel">
         <legend></legend>
             <label for="Name" >Full name: </label>
-                <input type="text" id="nombre">
+                <input type="text" id="nombre" class="inputFormulario">
             <label for="Age" >Your age</label>
-                <input type="number" id="edad" required>
+                <input type="number" id="edad" class="inputFormulario" required>
+            </div>
         </fieldset>
         <fieldset>
+            <div class="labelFormulario">
             <label for="color">Choose your favorite colors: </label>
                 <p></p>
             <label for="color">Black</label>
@@ -38,13 +45,13 @@
                 <p></p>
             <label for="color">White</label>
                 <input type="checkbox" name="color" id="elegir">
+            </div>
         </fieldset>
         </form>
-        <input type="submit" value="submit!">
+        <input type="submit" value="Submit!" class="labelFormulario">
     </main>
 
     <footer>
-
     </footer>
 </body>
 </html>
