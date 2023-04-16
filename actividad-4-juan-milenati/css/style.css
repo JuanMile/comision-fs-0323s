@@ -1,0 +1,39 @@
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.home{
+    margin-left: 25%;
+    width: 100vh;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #4b4453, #604660, #7a4665, #964361, #ae4254, #bb474f, #c84e49, #d25742, #dd614b, #e86b54, #f4765d, #ff8066);
+}
+
+.elGato{
+    padding-left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+h1{
+
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav li:first-child{
+    margin-left: 500px;
+}
+
+.catIcon{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
